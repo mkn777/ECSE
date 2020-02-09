@@ -7,6 +7,33 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+## Installation
+
+* type git clone ``` https://github.com/mkn777/ECSE.git projectname  ``` to clone the repository
+
+* type ```cd projectname ```
+
+* type ```composer install ```
+*    type ``` composer update ```
+*    rename ``` .env.example to .env ```
+*    type ```php artisan key:generate ```to generate secure key in .env file
+*    in .env file :
+       - set DB_CONNECTION (for example mysql ) 
+       - set DB_DATABASE   (choose a name for your database ) 
+       - set DB_USERNAME    
+       - set DB_PASSWORD
+* create the database which you mentioned in .env file 
+* select your databas and execute ``` booktrad_adv.sql ``` queries in it .
+* finally , open cmd and go to your project root and type ```php artisan serve ```
+* now should be able to see the website on ```localhost:8000```
+
+    
+
+
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
