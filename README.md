@@ -16,7 +16,7 @@
 
 * type ```composer install ```
 *    type ``` composer update ```
-*    rename ``` .env.example to .env ```
+*    type  ``` copy .env.example .env ```
 *    type ```php artisan key:generate ```to generate secure key in .env file
 *    in .env file :
        - set DB_CONNECTION (for example mysql ) 
