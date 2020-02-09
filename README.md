@@ -10,7 +10,7 @@
 
 ## Installation
 
-* type git clone ``` https://github.com/mkn777/ECSE.git projectname  ``` to clone the repository
+* type ``` git clone  https://github.com/mkn777/ECSE.git projectname  ``` to clone the repository or download the zip content
 
 * type ```cd projectname ```
 
@@ -24,7 +24,7 @@
        - set DB_USERNAME    
        - set DB_PASSWORD
 * create the database which you mentioned in .env file 
-* select your databas and execute ``` booktrad_adv.sql ``` queries in it .
+* select your database and execute ``` booktrad_adv.sql ``` queries in it .
 * finally , open cmd and go to your project root and type ```php artisan serve ```
 * now should be able to see the website on ```localhost:8000```
 
